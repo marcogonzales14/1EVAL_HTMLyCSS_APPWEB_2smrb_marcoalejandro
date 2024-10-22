@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        h1{
+            color: blueviolet;
+            background-color: plum;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Ejercicio de formulario</h1>
+    <form action="">
+        <label for="nombre">
+            <p>Nombre: <input type="text" name="nombre" id="nombre" placeholder="Indica tu nombre">
+        </label>
+        <label for="Apellidos">
+            <p>Apellidos: <input type="text" name="Apellidos" id="Apellidos">
+        </label>
+        <label for="frase">
+            <p>Escriba una frase: <input type="text" name="frase" id="frase" value="En una lugar de la Mancha">
+        </label>
+        <label for="contraseña">
+            <p>Contraseña: <input type="password" name="contraseña" id="contraseña">
+        </label>
+        <label for="numfav">
+            <p>Número favorito: <input type="number" name="numfav" id="numfav">
+        </label>
+        <label for="colorfav">
+            <p>Color favorito: <input type="color" name="colorfav" id="colorfav">
+        </label>
+        <label for="timepo">
+            <p>Hora de entrada: <input type="time" name="tiempo" id="tiempo">
+        </label>
+        <label for="intereses">
+            <p>Intereses:<br>
+                Deportes <input type="checkbox" name="fútbol" id="interses">
+                Cine <input type="checkbox" name="cine" id="intereses">
+        </label>   
+        <label for="turno">
+            <p>Turno: <br> 
+                <input type="radio" name="turno" id="Mañana">Mañana
+                <input type="radio" name="turno" id="Tarde">Tarde
+                <input type="radio" name="turno" id="Noche">Noche
+        </label>
+        <label>
+            <p>Valoración de la empresa (1-10) <input type="range" name="" min="1" max="10">
+        </label>
+        <label for="">
+            <p>Nivel de Inglés (B1-C2) <input type="range" name="" id="" min="1" max="6" list="nivelingles">
+            <datalist id="nivelingles">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+            </datalist>
+        </label>
+        <label for="">
+            Más información: <textarea name="" id="" rows="5"></textarea>
+        </label>
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+    
+    
+</body>
+</html>
