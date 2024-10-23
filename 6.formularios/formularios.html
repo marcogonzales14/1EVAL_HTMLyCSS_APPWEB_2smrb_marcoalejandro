@@ -10,11 +10,19 @@
             background-color: plum;
             text-align: center;
         }
+        hr{
+            height:3px;
+            width:30%;
+            background-color: red;
+            margin-right: 50%;
+            margin-left: 0%;
+        }
 
     </style>
 </head>
 <body>
     <h1>Ejercicio de formulario</h1>
+    <hr>
     <form action="">
         <label for="nombre">
             <p>Nombre: <input type="text" name="nombre" id="nombre" placeholder="Indica tu nombre">
@@ -63,7 +71,7 @@
             </datalist>
         </label>
         <label for="">
-            Más información: <textarea name="" id="" rows="5"></textarea>
+            <p>Más información: <br><textarea name="" id="" rows="5"></textarea>
         </label>
         <p><input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
