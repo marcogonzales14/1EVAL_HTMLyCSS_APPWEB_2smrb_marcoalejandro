@@ -11,6 +11,7 @@ h1, address{
 
 div{
     border: solid beige 3px;
+    border-bottom-right-radius:50px;
 }
 
 /*Selector clase*/
@@ -25,7 +26,8 @@ p#parrafocolor{
 
 /*Selector descendiente*/
 div p{
-    color:royalblue
+    color:royalblue;
+    
 }
 
 /*Selector hijo*/
@@ -33,4 +35,18 @@ div.div2>p{
     color: red;
 }
 
+div.div2{
+    border-top-color:black;
+    border-bottom:orange 5px solid;
+    border-bottom-right-radius: 50px;
+}
+
+div.div3{
+   border-image-source: url("./bulgaria.svg");
+   border-image-repeat: round;
+   border-width: 2000000px;
+   text-align: center;
+   border-image-slice: 70;
+   
+}
 
