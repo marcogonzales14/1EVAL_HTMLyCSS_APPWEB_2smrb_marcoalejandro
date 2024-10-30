@@ -5,9 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listas</title>
+    <style>
+        ul.menu{
+            list-style-type: none;
+        }
+        li.submenu{
+            float: left;
+            color: white;
+            background-color: red;
+            font-size: 35px;
+            width: 250px;
+            padding:15px;
+            text-align: center;
+            border: black 5px dotted;
+            margin-right: 10px;
+
+    
+        }
+        li.submenu:hover{
+            background-color: gray;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
+    <h3>Menú horizontal con listas</h3>
+    <ul class="menu">
+        <li class="submenu">Fútbol</li>
+        <li class="submenu">Baloncesto</li>
+        <li class="submenu">Motor</li>
+        <li class="submenu">Polideportivo</li>
+        <li class="submenu">Coches</li>
+    </ul>
     <h1>Ejercicio de listas</h1>
     <h2 id="zonadelistaordenadas">Listas ordenadas</h2>
     <ol type="1" start="4">
@@ -228,6 +258,8 @@
         </li>
     </ul>
     <!--ol/ul/dl>li*(el número de listas que quieras tener)-->
+    
 </body>
+
 
 </html>
