@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleados de una empresa</title>
+</head>
+<body>
+    <form action="">
+    <h1>Empleados de una empresa</h1>
+    <p>Nombre: <input type="text" name="Nombre"> Apellidos: <input type="text" name="Apellidos"></p>
+    <p>Sueldo Bruto: <input type="text" name="Sueldo"></p>
+    <p>Fecha de Alta: <input type="text" name="alta"></p>
+    <p>Categoría: <input type="text" name="categoria"></p>
+    <p>Sueldo Neto: 
+        <input type="radio" name="sueldo" value="-1000">Menos de 1000 euros
+        <input type="radio" name="sueldo" value="1001-2000">Entre 1001 y 2000 euros
+        <input type="radio" name="sueldo" value="+2000">Más de 2000 euros        
+    </p>
+    <p>Guía de satisfacción de la empresa: <select name="empresa" id="empresa">
+        <option value="bajo">bajo</option>
+        <option value="medio">medio</option>
+        <option value="alto">alto</option>
+    </select></p>
+    <p>Tus comentarios: <br><textarea name="comentarios" id="comentarios" rows="4" cols="25"></textarea></p>
+    <input type="submit" value="Enviar"> <input type="reset" value="Reset">
+    <hr>
+    <p>Selecciona el sitio que quieras visitar <select name="sitio" id="sitio">
+        <option value="https://www.google.com/?hl=es">Google</option>
+        <option value="https://www.youtube.com/">Youtube</option>
+        <option value="https://es.yahoo.com/">Yahoo</option>
+    </select></p>
+    </form>
+</body>
+</html>
