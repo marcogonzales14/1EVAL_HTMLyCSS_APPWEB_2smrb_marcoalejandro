@@ -1,0 +1,17 @@
+div.a{
+    border: 1px solid black;
+    display: inline;
+    text-align: center;
+    padding: 13px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    transition: 5s;
+}
+
+div.a:hover{
+    background-color: lightsalmon;
+    color: white;
+    transition: 1ms;
+}
+
